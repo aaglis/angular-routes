@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  width: 100px;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
