@@ -1,0 +1,7 @@
+canActivate: Este guarda de rota é usado para determinar se uma rota pode ser ativada. Ele retorna um valor booleano que indica se a rota pode ser ativada ou não. Se o valor retornado for true, a rota será ativada. Se for false, a rota não será ativada.
+
+canActivateChild: Este guarda de rota é semelhante ao canActivate, mas é usado para proteger as rotas filhas de um componente pai. Ele também retorna um valor booleano que indica se as rotas filhas podem ser ativadas ou não.
+
+canDeactivate: Este guarda de rota é usado para determinar se uma rota pode ser desativada. Ele é usado principalmente para confirmar se o usuário deseja sair de uma página ou realizar alguma ação antes de sair. Ele também retorna um valor booleano que indica se a rota pode ser desativada ou não.
+
+canLoad: Este guarda de rota é usado para determinar se um módulo de rota pode ser carregado. Ele é usado principalmente para proteger módulos de rota que são carregados de forma assíncrona. Ele retorna um valor booleano que indica se o módulo de rota pode ser carregado ou não.
